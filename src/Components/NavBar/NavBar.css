@@ -1,0 +1,134 @@
+.NavBar {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: all .48s ease;
+    z-index: 100;
+}
+
+.cv_active {
+    z-index: -1;
+}
+
+.navBarMob>a {
+    background: transparent;
+    color: #fff;
+}
+
+.NavBar__Logo {
+    display: flex;
+    height: 70px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.NavBar__Logo>a {
+    padding-left: 35px;
+    padding-right: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.NavBar__menu__container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBar__menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.NavBar__menu>a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding: 0 40px 0 0;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.37);
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.NavBar__menu>a:hover {
+    color: #e82dcf;
+    transition: color .0s ease;
+}
+
+.scrolling {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 4px 15px 0 rgba(0, 0, 0, 0.37);
+    color: rgb(255, 255, 255);
+    transition: all 1s ease;
+    display: flex;
+}
+
+.scrolling__menu>a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 4px;
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.scrolling>.NavBar__Logo>a>h2 {
+    color: rgb(255, 255, 255);
+    transition: all 1s ease;
+}
+
+.portal-open>.NavBar__Logo>a>h2 {
+    color: rgb(255, 255, 255);
+}
+
+.portal-open .hamburguer-menu__container {
+    stroke: #fff;
+    fill: #fff;
+    cursor: pointer;
+    min-width: 70px;
+    max-width: 70px;
+}
+
+
+@media only screen and (max-width:960px) {
+    .logo {
+        font-size: 2.2rem;
+    }
+
+    .scrolling .hamburguer-menu__container {
+        stroke: #fff;
+        fill: #fff;
+        cursor: pointer;
+        min-width: 70px;
+        max-width: 70px;
+    }
+
+    .hamburguer-menu__container {
+        min-width: 72px;
+        /* max-width: 50px !important; */
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .hamburguer-menu__container>svg {
+        width: 50%;
+        height: 100%;
+    }
+
+    .NavBar__menu {
+        display: none;
+    }
+}

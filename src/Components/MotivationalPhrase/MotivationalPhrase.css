@@ -1,0 +1,60 @@
+.Motive__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55vh;
+    background-color: #fff;
+}
+
+.Motive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.Motive>h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+.Motive>p {
+    /* width: 100%; */
+    /* height: 35px; */
+    font-family: 'Mulish', sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #a3a3a3;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+}
+
+@media only screen and (max-width:550px){
+    .Motive__container {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:960px) {
+    .Motive {
+        width: 80%;
+    }
+
+    .Motive>h2 {
+        font-size: 22px;
+    }
+
+    .Motive>p{
+        font-size: 17px;
+        padding-right: 15px;
+    }
+}

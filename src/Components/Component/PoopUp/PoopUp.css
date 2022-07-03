@@ -1,0 +1,7 @@
+.poopup__container{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: aliceblue;
+}

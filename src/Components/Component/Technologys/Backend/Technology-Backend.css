@@ -1,0 +1,43 @@
+.backend__container{
+    width: 100%;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.primer__fila-backend{
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    gap: 10px 30px;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.segunda__fila-backend{
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    gap: 10px 30px;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.MySql{
+    width: 100px;
+    padding-top: 14px;
+}
+
+@media only screen and (min-width:961px){
+    .backend__container{
+        min-height: 175px;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .backend__container{
+        min-height: 160px;
+    }
+}

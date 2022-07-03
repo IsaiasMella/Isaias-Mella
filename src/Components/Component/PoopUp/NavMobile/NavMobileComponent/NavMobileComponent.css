@@ -1,0 +1,43 @@
+.navMobile__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.952);
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguer-menu__container>svg>g>g>rect{
+    color: #fff;
+}
+
+.navMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+}
+
+.navMobile>a {
+    color: #fff;
+    padding-left: 35px;
+    padding-right: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.navMobile>a:hover{
+    color: #e82dcf ;
+    font-weight: 700;
+    /* border-color: #e45; */
+}

@@ -1,0 +1,66 @@
+.logo__container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo__react{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+}
+
+.reactL{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.primera__fila-frontend{
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    gap: 10px 30px;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.segunda__fila-frontend{
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    gap: 10px 30px;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo{
+    object-fit: contain;
+    width: 100%;
+}
+
+.html{
+    height: 45px;
+    margin-top: 2px;
+}
+
+.css{
+    height: 47px;
+}
+
+@media only screen and (min-width:961px){
+    .logo__container{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and  (max-width:960px){
+    .logo__container{
+        position: relative;
+        top: 10px;
+    }
+}

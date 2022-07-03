@@ -1,0 +1,178 @@
+.carrousel__container {
+    background: #f7f7f7;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.title>h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.carrousel {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide__container {
+    display: flex;
+    width: 65%;
+    overflow: hidden;
+}
+
+.slide {
+    object-fit: cover;
+    height: 40vh;
+    min-width: 65%;
+    transition: .3s ease all;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    object-fit: cover;
+}
+
+.slide>a {
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide>img {
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons_container {
+    width: 65%;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons_container>button {
+    pointer-events: all;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    transition: .3s ease all;
+    color: #fff;
+}
+
+.button-left {
+    left: 0;
+}
+
+.button-rigth {
+    right: 0;
+}
+
+.description__container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.description {
+    width: 50%;
+    height: 150px;
+    min-width: 65%;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide__description {
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.slide__description>h3 {
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.slide__description>p {
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #aaaaaa;
+    height: 100%;
+}
+
+.button__container {
+    width: 100%;
+    text-align: center;
+    margin-top:1%;
+    height: 10%;
+}
+
+/* @media only screen and (max-width:1300px){
+    .carrousel__container {
+        height: 90vh;
+    }
+
+    .title>h2 {
+        margin: 2% 0;
+    }
+
+    .button__container {
+        margin-top:2%;
+    }
+
+    .carrousel{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .slide__description{
+        margin: 0;
+    }
+
+    .slide__description>p{
+        
+    }
+} */

@@ -1,0 +1,110 @@
+.poopup-mail__container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #000000aa;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poopup-mail {
+    width: 45%;
+    height: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 45px 5px #00000041;
+    padding: 25px;
+}
+
+.check__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.check__container>svg {
+    width: 60px;
+    height: 60px;
+}
+
+.check__container>svg>g>path {
+    stroke-width: 2.5px;
+}
+
+.poopup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.poopup-text>h4 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #000;
+}
+
+.poopup-text>h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.poopup-text>p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    /* color: #208DE8; */
+}
+
+.poopup-button__container {
+    margin-top: 15px;
+}
+
+.poopup-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    min-width: 120px;
+    background-color: #fff;
+    border: 3px solid #000;
+    width: 30%;
+    height: 30px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poopup-button:hover {
+    border: 3px solid transparent;
+    background-color: #e82dcf;/*#a71c94*/
+    color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.37);
+    transition: background .25s ease-in-out;
+    transition: color .05s ease-in-out;
+}
+
+@media only screen and (max-width: 900px) {
+    .poopup-mail{
+        width: 50%;
+        height: 50%;
+        
+    }
+}

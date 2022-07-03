@@ -1,0 +1,21 @@
+.nav-about-technology{
+    margin-top: 10px;
+}
+
+.about__title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about__title>h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about__title>p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
