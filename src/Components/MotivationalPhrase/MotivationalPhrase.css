@@ -26,8 +26,6 @@
 }
 
 .Motive>p {
-    /* width: 100%; */
-    /* height: 35px; */
     font-family: 'Mulish', sans-serif;
     margin-top: 10px;
     font-size: 15px;
@@ -56,5 +54,15 @@
     .Motive>p{
         font-size: 17px;
         padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .Motive {
+        width: 80%;
+    }
+
+    .Motive>h2 {
+        font-size: 18px;
     }
 }

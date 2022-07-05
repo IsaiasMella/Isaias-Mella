@@ -24,6 +24,8 @@
     height: 70px;
     line-height: 70px;
     cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .NavBar__Logo>a {
@@ -34,6 +36,7 @@
     font-size: 20px;
     text-decoration: none;
     color: #000;
+    outline: none;
 }
 
 .NavBar__menu__container {
@@ -99,6 +102,7 @@
     cursor: pointer;
     min-width: 70px;
     max-width: 70px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 

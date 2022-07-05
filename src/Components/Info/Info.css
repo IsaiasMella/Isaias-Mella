@@ -38,3 +38,9 @@
         padding: 0 5px;
     }
 }
+
+@media only screen and (max-width:415px){
+    .Info>h1{
+        font-size: 20px;
+    }
+}
