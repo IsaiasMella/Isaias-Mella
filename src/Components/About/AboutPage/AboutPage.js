@@ -34,7 +34,7 @@ const AboutePage = () => {
             >
                 <img src={yo_aboute} alt='isaias' className='img_fondo' />
             </motion.div>
-            <div className={`container__dynamic ${console.log(projectsMobileActive(projectsActive)) + projectsMobileActive(projectsActive) ? ' container__projects-active' : ''}`}>
+            <div className={`container__dynamic ${projectsMobileActive(projectsActive) ? ' container__projects-active' : ''}`}>
                 <Outlet />
                 <div className='rrss__container'>
                     <motion.p
