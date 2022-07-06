@@ -167,7 +167,7 @@
     .cover-container>img {
         object-fit: contain !important;
         min-height: 100vh !important;
-        min-width: 300%;
+        min-width: 300%; 
         left: -45%;
     }
 }
