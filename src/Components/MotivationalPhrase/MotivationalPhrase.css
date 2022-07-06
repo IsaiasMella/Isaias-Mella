@@ -43,6 +43,10 @@
 }
 
 @media only screen and (min-width:767px) and (max-width:960px) {
+    .Motive__container{
+        height: 35vh;
+    }
+
     .Motive {
         width: 80%;
     }
@@ -64,5 +68,19 @@
 
     .Motive>h2 {
         font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .Motive__container{
+        height: 60vh;
+    }
+
+    .Motive {
+        width: 80%;
+    }
+
+    .Motive>h2 {
+        font-size: 16.5px;
     }
 }

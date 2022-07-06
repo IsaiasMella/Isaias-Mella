@@ -148,3 +148,57 @@
         text-align: center;
     }
 }
+
+@media only screen and (min-width:750px) and (max-width:959px){
+    .About__container{
+        height: 45vh;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .Aboute__img{
+        align-self: flex-end;
+        overflow:inherit;
+        height: 100%;
+    }
+
+    .About__desc{
+        padding-right: 55px;
+    }
+
+    .isaias__img {
+        height: 95%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .About__desc{
+        margin: 0 auto;
+    }
+
+    .About__container{
+        height: 110vh;
+    }
+
+    .icon__container{
+        display: grid;
+        grid-template-columns: repeat(2,70px);
+        grid-template-rows: repeat(2,60px);
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Aboute__img{
+        min-height: 150px !important;
+    }
+
+    .About__desc>h2 {
+        font-size: 22px;
+    }
+
+    .About__desc>p {
+        font-size: 15px;
+    }
+}

@@ -64,3 +64,18 @@
         top: 10px;
     }
 }
+
+@media only screen and  (max-width:300px){
+    .about__title{
+        white-space: inherit;
+    }
+
+    .segunda__fila-frontend{
+        display: grid;
+        grid-template-columns: repeat(3, 40px);
+    }
+
+    .segunda__fila-frontend:nth-child(6){
+        display: none;
+    }
+}

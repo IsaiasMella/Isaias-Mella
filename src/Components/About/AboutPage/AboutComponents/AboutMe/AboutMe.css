@@ -81,3 +81,13 @@
         font-size: 15px;
     }
 }
+
+@media only screen and (max-width:300px){
+    .isaias_mella{
+        white-space: inherit;
+    }
+
+    .title-about-me__container>h3{
+        white-space: inherit;
+    }
+}

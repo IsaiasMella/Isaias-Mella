@@ -112,6 +112,12 @@
     }
 }
 
+@media only screen and (min-width:700px) and (max-width:900px){
+    .aboute__container{
+        height: 100vh;
+    }
+}
+
 @media only screen and (max-width:670px) {
     .aboute__projects-active {
         width: 80%;
@@ -143,5 +149,24 @@
 
     .container__dynamic {
         width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .aboute__container {
+        height: 100%;
+    }
+
+    .container__dynamic{
+        justify-content: flex-start;
+        min-height: 100vh;
+    }
+
+    .rrss__container {
+        position: relative;
+        top: 95px;
+        bottom: 0;
+        right: 0;
+        overflow: inherit;
     }
 }
