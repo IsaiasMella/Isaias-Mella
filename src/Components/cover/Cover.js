@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Cover.css'
 import Fondo from '../../Video/Cover.jpg'
 import Button from '../Component/Buttons/Button'
@@ -59,7 +59,21 @@ const aVariantRight = {
     }
 }
 
+
 const Cover = () => {
+    const [widthPantallaCover, setWidthPantallaCover] = useState(window.innerWidth);
+
+    function escucharTamañoCover() {
+        setWidthPantallaCover(window.innerWidth)
+    }
+    
+    useEffect(() => {
+        window.addEventListener('resize', escucharTamañoCover)
+        return () => {
+            window.removeEventListener('resize', escucharTamañoCover)
+        };
+    });
+
     return (
         <>
             <motion.div className='cover-container'>
@@ -81,7 +95,7 @@ const Cover = () => {
                     <div className='buttons'>
                         <Button text='ABOUT'
                             to='about'
-                            offset={-95}
+                            offset={widthPantallaCover < 900 ? -70 : -95}
                             variant={aVariantLeft}
                             initial={"hidden"}
                             animate={"show"}
@@ -93,7 +107,7 @@ const Cover = () => {
                         >or</motion.p>
                         <Button text='PROJECTS'
                             to='projects'
-                            offset={-70}
+                            offset={widthPantallaCover < 900 ? -60 : -70}
                             variant={aVariantRight}
                             initial={"hidden"}
                             animate={"show"} />

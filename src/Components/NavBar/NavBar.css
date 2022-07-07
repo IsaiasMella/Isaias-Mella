@@ -105,6 +105,34 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+@media only screen and (min-width:1280px){
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .NavBar__menu>a {
+        font-size: 1.1rem;
+    }
+
+    .scrolling__menu>a {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1279px){
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .NavBar__menu>a {
+        font-size: 1rem;
+    }
+
+    .scrolling__menu>a {
+        font-size: 1.3rem;
+    }
+}
+
 
 @media only screen and (max-width:960px) {
     .logo {

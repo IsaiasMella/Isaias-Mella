@@ -36,6 +36,18 @@
     letter-spacing: 2.5px;
 }
 
+@media only screen and (min-width:1280px){
+    .Motive__container{
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1279px){
+    .Motive__container{
+        height: 40vh;
+    }
+}
+
 @media only screen and (max-width:550px){
     .Motive__container {
         margin: 20px 0;
@@ -44,7 +56,7 @@
 
 @media only screen and (min-width:767px) and (max-width:960px) {
     .Motive__container{
-        height: 35vh;
+        height: 80vh;
     }
 
     .Motive {
@@ -61,6 +73,18 @@
     }
 }
 
+@media only screen and (min-width:601px) and (max-width:749px) {
+    .Motive__container{
+        height: 90vh;
+    }
+}
+
+@media only screen and (min-width:416px) and (max-width:600px) {
+    .Motive__container{
+        height: 110vh;
+    }
+}
+
 @media only screen and (max-width:415px){
     .Motive {
         width: 80%;
@@ -68,6 +92,18 @@
 
     .Motive>h2 {
         font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:331px) and (max-width:381px){
+    .Motive__container{
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width:301px) and (max-width:330px){
+    .Motive__container{
+        height: 90vh;
     }
 }
 

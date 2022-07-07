@@ -46,6 +46,18 @@
     color: #a7a7a7;
 }
 
+@media only screen and (min-width:1280px){
+    .services__container {
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1279px){
+    .services__container {
+        height: 50vh;
+    }
+}
+
 @media only screen and (max-width:960px) {
     .services__container {
         height: 90vh;
@@ -70,7 +82,7 @@
 @media only screen and (min-width:750px) and (max-width:959px) {
     .services__container {
         margin: 0 auto;
-        height: 60vh;
+        height: 150vh;
     }
 
     .services>h2 {
@@ -89,9 +101,51 @@
     }
 }
 
+@media only screen and (min-width:601px) and (max-width:749px) {
+    .services__container {
+        height: 150vh;
+    }
+
+    .services:first-child{
+        margin-bottom: 30px;
+    }
+
+    .services:nth-child(2){
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width:416px) and (max-width:600px) {
+    .services__container {
+        height: 200vh;
+    }
+
+    .services:first-child{
+        margin-bottom: 30px;
+    }
+
+    .services:nth-child(2){
+        margin-bottom: 30px;
+    }
+}
+
 @media only screen and (max-width:415px) {
     .services__container {
         width: 95%;
+    }
+}
+
+@media only screen and (min-width:331px) and (max-width:361px){
+    .services__container {
+        margin: 0;
+        height: 120vh;
+    }
+}
+
+@media only screen and (min-width:301px) and (max-width:330px){
+    .services__container {
+        margin: 0;
+        height: 165vh;
     }
 }
 
@@ -99,7 +153,6 @@
     .services__container {
         margin: 0;
         height: 100vh;
-
     }
 
     #imagen1 {

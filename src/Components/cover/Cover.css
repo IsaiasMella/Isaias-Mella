@@ -71,6 +71,23 @@
     color: #a7a7a7;
 }
 
+@media only screen and (min-width:1280px) and (min-height:900){
+    .cover-container>img {
+        object-fit: contain !important;
+        width: 150%;
+        left: -20%;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1279px){
+    .cover-container>img {
+        object-fit: contain !important;
+        height: 100vh !important;
+        min-width: 150%;
+        left: -15%;
+    }
+}
+
 @media only screen and (min-width:550px) and (max-width:749px) {
 
     .cover-container {
@@ -163,12 +180,64 @@
     }
 }
 
-@media only screen and (min-width:750px) and (max-width:959px){
+@media only screen and (min-width:750px) and (max-width:959px) {
+    .cover-container>img {
+        object-fit: cover !important;
+        min-height: 100vh !important;
+        min-width: 120%;
+        left: 0%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:749px) {
     .cover-container>img {
         object-fit: contain !important;
         min-height: 100vh !important;
-        min-width: 300%; 
-        left: -45%;
+        min-width: 150%;
+        left: -25%;
+    }
+
+    .title__container>h1 {
+        margin: 10px 0 !important;
+    }
+
+    .buttons {
+        margin: 0;
+
+    }
+}
+
+@media only screen and (min-width:416px) and (max-width:600px) {
+    .cover-container>img {
+        object-fit: contain !important;
+        min-height: 100vh !important;
+        min-width: 150%;
+        left: -25%;
+    }
+
+    .title__container>h1 {
+        letter-spacing: 20px;
+        line-height: 69px;
+        font-size: 50px;
+        margin: 10px 0 !important;
+    }
+
+    .title__container>p {
+        letter-spacing: 15px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .buttons {
+        margin: 0;
+    }
+
+    .buttons>p {
+        font-size: 20px;
+    }
+
+    .button {
+        margin: 0 25px !important;
     }
 }
 
@@ -178,7 +247,7 @@
     }
 
     .cover-container>img {
-        object-fit:fill !important;
+        object-fit: fill !important;
         min-height: 100% !important;
         min-width: 300%;
         top: 0;
@@ -201,9 +270,9 @@
     }
 }
 
-@media only screen and (max-width:300px){
+@media only screen and (max-width:300px) {
     .cover-container>img {
-        object-fit:fill !important;
+        object-fit: fill !important;
         min-height: 100% !important;
         min-width: 380%;
         top: 0;

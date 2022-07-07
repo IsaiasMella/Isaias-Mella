@@ -8,7 +8,7 @@
     z-index: 99;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /*si desppues del deploy anda mal pasar a flex-end*/
     align-items: center;
 }
 

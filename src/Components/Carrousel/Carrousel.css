@@ -35,7 +35,7 @@
 
 .slide__container {
     display: flex;
-    width: 65%;
+    width: 75%;
     overflow: hidden;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .buttons_container {
-    width: 65%;
+    width: 75%;
     height: 100%;
     pointer-events: none;
     position: absolute;
@@ -152,7 +152,7 @@
 
 @media only screen and (min-width:750px) and (max-width:960px) {
     .carrousel__container {
-        height: 75vh;
+        height: 125vh;
     }
 
     .slide__container {
@@ -170,6 +170,28 @@
     }
 
     .buttons_container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:749px) {
+    .carrousel__container{
+        height: 120vh;
+    }
+
+    .description{
+        height: 160px;
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width:416px) and (max-width:600px) {
+    .carrousel__container{
+        height: 150vh;
+    }
+
+    .description{
+        height: 170px;
         width: 90%;
     }
 }
@@ -194,6 +216,12 @@
 
     .buttons_container {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width:301px) and (max-width:330px){
+    .carrousel__container{
+        height: 100vh;
     }
 }
 
