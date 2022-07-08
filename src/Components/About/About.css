@@ -115,6 +115,27 @@
     color: #fff;
 }
 
+@media only screen and (min-width:2300px){
+    .About__desc>h2 {
+        margin-bottom: 20px;
+        font-size: 65px;
+    }
+    
+    .About__desc>p {
+        line-height: 1.5;
+        font-size: 28px;
+    }
+
+    .icon{
+        margin-top: 20px;
+    }
+
+    .icon>svg{
+        width: 100px !important;
+        height: 100px!important;
+    }
+}
+
 @media only screen and (min-width:1280px) and (min-height:949px) {
     .About__container {
         height: 60vh;
@@ -164,7 +185,7 @@
 
 @media only screen and (min-width:750px) and (max-width:959px) {
     .About__container {
-        height: 110vh;
+        height: 45vh;
         flex-direction: row;
         padding: 0;
     }
@@ -172,7 +193,6 @@
     .Aboute__img {
         align-self: flex-end;
         overflow: inherit;
-        height: 100%;
     }
 
     .About__desc {

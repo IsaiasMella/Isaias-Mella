@@ -21,6 +21,13 @@
     color: #fff;
 }
 
+@media only screen and (min-width:2300px){
+    .button {
+        font-size: 18px !important;
+        margin: 0 45px !important;
+    }
+}
+
 @media only screen and (max-width:415px){
     .button {
         font-size: 10px;

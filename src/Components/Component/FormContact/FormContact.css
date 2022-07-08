@@ -155,12 +155,13 @@
     transition: border .15s ease-in-out;
 }
 
-.about__error{
+.about__error {
     width: 65%;
     text-align: start;
 }
 
-.error-name, .error-email{
+.error-name,
+.error-email {
     padding-top: 5px;
 }
 
@@ -308,7 +309,7 @@
     margin-bottom: 10px;
 }
 
-@media only screen and (min-width:2300px){
+@media only screen and (min-width:2300px) {
     .footer__container-form {
         height: 60% !important;
         justify-content: center;
@@ -317,15 +318,38 @@
     .footer__form {
         width: 80%;
         margin-bottom: 50px;
+        font-size: 40px;
     }
 
-    .footer__textarea{
+    .footer__textarea {
         width: 80%;
         margin-bottom: 40px;
+        font-size: 40px;
+    }
+
+    .footer__button,
+    .about__button {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 2px;
+        min-width: 120px;
+        background-color: transparent;
+        border: 3px solid rgb(0, 0, 0);
+        width: 25%;
+        height: 40px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input {
+        height: 100px;
     }
 }
 
-@media only screen and (min-width:1900px) and (max-width:1299px){
+@media only screen and (min-width:1900px) and (max-width:1299px) {
     .footer__container-form {
         height: 80% !important;
         justify-content: center;
@@ -336,7 +360,7 @@
         margin-bottom: 50px;
     }
 
-    .footer__textarea{
+    .footer__textarea {
         width: 80%;
         margin-bottom: 40px;
     }

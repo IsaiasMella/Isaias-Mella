@@ -48,7 +48,7 @@ const Services = () => {
                     variants={iconVariants}
                     initial="hidden"
                     animate="show">
-                    <img src={Pen} width="68" height="68" border="0" id="imagen1" alt='CleanDesign' />
+                    <img src={Pen} border="0" id="imagen1" alt='CleanDesign' />
                 </motion.div>
                 <motion.h2
                     variants={iconVariants}

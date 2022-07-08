@@ -49,10 +49,10 @@ const Footer = () => {
             <div className='container'>
                 <div className='footer__info'>
                     <div className='footer__name-isaias'>
-                        <motion.h1
+                        <motion.h2
                             initial={{ x: "-50px", opacity: 0 }}
                             animate={{ x: "0px", opacity: 1, transition: { ease: "easeInOut", duration: 1, delay: .5 } }}
-                        >Isaias Mella</motion.h1>
+                        >Isaias Mella</motion.h2>
                     </div>
                     <motion.a href='https://www.google.com.ar/maps/place/Bah%C3%ADa+Blanca,+Provincia+de+Buenos+Aires/@-38.7148006,-62.3157673,12z/data=!4m5!3m4!1s0x95edbcabdc1302bd:0x76d1d88d241e7a11!8m2!3d-38.7183177!4d-62.2663478' target='_blank'
                         variants={textVariant}
@@ -86,7 +86,7 @@ const Footer = () => {
                             >
                                 <i className='fab fa-github github'></i>
                             </motion.a>
-                            <LinkR to='/about/contact' >
+                            <LinkR to='/about/contact' className='gmail__link'>
                                 <motion.svg
                                     className='sns-icon gmail'
                                     initial={{ x: "50px", opacity: 0 }}
