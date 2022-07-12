@@ -82,7 +82,7 @@
         margin-bottom: 30px;
     }
 
-    .buttons>p{
+    .buttons>p {
         font-size: 30px;
     }
 }
@@ -95,17 +95,21 @@
     }
 }
 
-@media only screen and (min-width:1000px) and (max-width:1279px) {
+@media only screen and (min-width:960px)and (max-width:1700px)and (min-height:900px) {
+    .fondo {
+        object-position: left;
+    }
+}
+
+@media only screen and (min-width:960px) and (max-width:1279px) and (max-height:900px) {
     .cover-container>img {
-        object-fit: contain !important;
+        object-fit: cover !important;
         height: 100vh !important;
-        min-width: 150%;
-        left: -15%;
+        object-position: left;
     }
 }
 
 @media only screen and (min-width:550px) and (max-width:749px) {
-
     .cover-container {
         overflow: hidden;
     }
@@ -184,7 +188,7 @@
     }
 }
 
-@media only screen and (min-width:750px) and (max-width:959px) {
+@media only screen and (min-width:750px) and (max-width:959px) and (max-height:900px) {
     .cover-container>img {
         object-fit: cover !important;
         min-height: 100vh !important;
@@ -195,10 +199,10 @@
 
     .cover-container {
         overflow: hidden;
-    }    
+    }
 }
 
-@media only screen and (min-width:601px) and (max-width:749px) {
+@media only screen and (min-width:601px) and (max-width:749px) and (max-height:900px) {
     .cover-container>img {
         object-fit: contain !important;
         min-height: 100vh !important;
@@ -216,13 +220,20 @@
     }
 }
 
-@media only screen and (min-width:416px) and (max-width:600px) {
+@media only screen and (min-width:416px) and (max-width:600px) and (max-height:900px) {
     .cover-container>img {
         object-fit: contain !important;
         min-height: 100vh !important;
         min-width: 150%;
         left: -25%;
     }
+
+    /* .cover-container>img {
+        object-fit: contain !important;
+        height: 100vh !important;
+        min-width: 150%;
+        left: -15%;
+    } */
 
     .title__container>h1 {
         letter-spacing: 20px;
